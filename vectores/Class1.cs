@@ -15,5 +15,14 @@ namespace vectores
         {
             return Math.Sqrt(Math.Pow(x, 2)+ Math.Pow(y, 2));
         }
+        public double DotProduct(Vector v)
+        {
+            return (v.x * x) + (v.y * y);
+        }
+        public double AngleBetween(Vector v)
+        {
+            double temp = DotProduct(v)/Magnitude()*v.Magnitude();
+            return Math.Acos(temp);
+        }
     }
 }

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vectores", "vectores\vectores.csproj", "{850C9641-AE3B-4617-AD34-46311886E04F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVec", "TestVec\TestVec.csproj", "{055208E8-47C0-463D-8B6F-05B7E3C938B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleVec", "ConsoleVec\ConsoleVec.csproj", "{0FBE36B3-8190-4496-B275-67D0B55C00FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{850C9641-AE3B-4617-AD34-46311886E04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850C9641-AE3B-4617-AD34-46311886E04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850C9641-AE3B-4617-AD34-46311886E04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055208E8-47C0-463D-8B6F-05B7E3C938B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055208E8-47C0-463D-8B6F-05B7E3C938B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055208E8-47C0-463D-8B6F-05B7E3C938B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055208E8-47C0-463D-8B6F-05B7E3C938B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBE36B3-8190-4496-B275-67D0B55C00FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBE36B3-8190-4496-B275-67D0B55C00FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBE36B3-8190-4496-B275-67D0B55C00FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBE36B3-8190-4496-B275-67D0B55C00FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
