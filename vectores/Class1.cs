@@ -21,7 +21,7 @@ namespace vectores
         }
         public double AngleBetween(Vector v)
         {
-            double temp = DotProduct(v)/Magnitude()*v.Magnitude();
+            double temp = DotProduct(v)/(Magnitude()*v.Magnitude());
             return Math.Acos(temp);
         }
     }
